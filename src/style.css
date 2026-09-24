@@ -17,10 +17,16 @@
    background-position: center;
 }
 
-.logo {
+main {
+   display: flex;
+   flex-direction: column;
+   padding-left: 200px;
+   padding-top: 200px;
+   gap: 20px;
+}
+
+.poster {
    width: 700px;
-   margin-left: 200px;
-   margin-top: 250px;
 }
 
 .descricao {
@@ -28,14 +34,11 @@
    font-size: 25px;
    max-width: 800px;
    line-height: 1.4;
-   margin-left: 200px;
 }
 
 .buttons {
    display: flex;
    gap: 16px;
-   margin-left: 200px;
-   margin-top: 40px;
 }
 
 .buttons button {
