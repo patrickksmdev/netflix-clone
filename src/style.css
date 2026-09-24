@@ -21,10 +21,12 @@ header {
    position: absolute;
    top: 0;
    left: 0;
+   width: 100%;
    display: flex;
    align-items: center;
    gap: 45px;
    padding-left: 60px;
+   padding-right: 60px;
    padding-top: 30px;
    z-index: 10;
 }
@@ -53,6 +55,41 @@ header {
 .menu a.active {
    color: #ffffff;
    font-weight: 700;
+}
+
+.header-right {
+   margin-left: auto;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   color: #ffffff;
+}
+
+.header-right svg {
+   cursor: pointer;
+   transition: opacity 0.2s ease;
+}
+
+.header-right svg:hover {
+   opacity: 0.75;
+}
+
+.header-right .user {
+   width: 40px;
+   height: 40px;
+   border-radius: 4px;
+   cursor: pointer;
+   object-fit: cover;
+}
+
+.header-right .user-selector {
+   cursor: pointer;
+   margin-left: -10px;
+   transition: transform 0.2s ease;
+}
+
+.header-right .user-selector:hover {
+   transform: rotate(180deg);
 }
 
 main {
