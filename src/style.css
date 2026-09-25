@@ -146,3 +146,24 @@ main {
 .button-info:hover {
    background-color: rgba(109, 109, 110, 0.4); /* Fica mais transparente ao passar o mouse */
 }
+
+.categorias {
+   padding-top: 150px;
+}
+
+
+.categorias h2 {
+   color: white;
+   font-size: 30px;
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+
+.minha-lista{
+   display: flex;
+   gap: 20px;
+}
+
+.categorias img {
+   width: 400px;
+}
