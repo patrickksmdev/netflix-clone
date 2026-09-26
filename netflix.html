@@ -12,7 +12,7 @@
 <body>
     <div class="app-background">
     <header>
-    <!-- Navigation menu / Header -->
+    <!-- Parte de navegação do menu / Cabeçalho do site -->
 
     <img src="img/logo-1.png" class="netflix-logo" alt="Netflix">
     <div class="menu">
@@ -23,7 +23,7 @@
         <a href="#">Minha lista</a>
     </div>
 
-    <!-- Header right elements -->
+    <!-- Elementos do lado direito do cabeçalho -->
     <div class="header-right">
         <svg class="search" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="11" cy="11" r="7"></circle>
@@ -46,11 +46,11 @@
     </header>
 
     <main>
-    <!-- Main content -->
+    <!-- Corpo principal do site-->
     <img src="img/poster-1.png" class="movie-poster" alt="Featured movie">
     <p class="description">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica</p>
      
-    <!-- Action buttons -->
+    <!-- Botões de Ação -->
     <div class="buttons">
        <button class="button-play">
             <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
@@ -66,10 +66,13 @@
         </button>
     </div>
 
-    <!-- Movie categories -->
+    <!-- Categories de filmes -->
     <div class="categories">
         <h2>Minha lista</h2>
+        
         <div class="my-list movie-carousel">
+
+            <!-- O trilho de filmes -->
             <img src="img/my-list/poster_01.png" alt="movie1">
             <img src="img/my-list/poster_02.png" alt="movie2">
             <img src="img/my-list/poster_03.png" alt="movie3">
@@ -78,8 +81,12 @@
             <img src="img/my-list/poster_06.png" alt="movie6">
             <img src="img/my-list/poster_07.png" alt="movie7">
         </div>
+
         <h2>Em Alta</h2>
+
         <div class="trending movie-carousel">
+
+            <!-- O trilho de filmes -->
             <img src="img/trending/poster_01.png" alt="movie1">
             <img src="img/trending/poster_02.png" alt="movie2">
             <img src="img/trending/poster_03.png" alt="movie3">
@@ -87,11 +94,44 @@
             <img src="img/trending/poster_05.png" alt="movie5">
             <img src="img/trending/poster_06.png" alt="movie6">
         </div>
+        <h2>Séries excêntricas de humor ácido</h2>
 
+        <div class="carousel-container">
+            <!-- Seta Esquerda (volta para a parte 1) -->
+            <a href="#slide-1" class="arrow prev">&#10094;</a>
+
+                <!-- O trilho de filmes -->
+                <div class="humor-series movie-carousel">
+                    <!-- Primeira parte visível -->
+                    <div id="slide-1" class="slide-group">
+                        <img src="img/series/poster_01.png" alt="movie1">
+                        <img src="img/series/poster_02.png" alt="movie2">
+                        <img src="img/series/poster_03.png" alt="movie3">
+                        <img src="img/series/poster_05.png" alt="movie4">
+                        <img src="img/series/poster_06.png" alt="movie5">
+                        <img src="img/series/poster_07.png" alt="movie6">
+                        <img src="img/series/poster_08.png" alt="movie7">
+                    </div>
+
+                    <!-- Segunda parte (aparece ao clicar na seta da direita) -->
+                    <div id="slide-2" class="slide-group">
+                        <img src="img/series/poster_09.png" alt="movie8">
+                        <img src="img/series/poster_10.png" alt="movie9">
+                        <img src="img/series/poster_12.png" alt="movie10">
+                        <img src="img/series/poster_13.png" alt="movie11">
+                        <img src="img/series/poster_14.png" alt="movie12">
+                        <img src="img/series/poster_15.png" alt="movie13">
+                        <img src="img/series/poster_16.png" alt="movie14">
+                    </div>
+                </div>
+            
+            <!-- Seta Direita (avança para a parte 2) -->
+            <a href="#slide-2" class="arrow next">&#10095;</a>
+        </div>    
     </div>
     </main>
     <footer>
-    <!-- Footer -->
+    <!-- Rodapé do site -->
     </footer>
     </div>
 </body>
