@@ -151,7 +151,6 @@ main {
    padding-top: 150px;
 }
 
-
 .categorias h2 {
    color: white;
    font-size: 30px;
@@ -159,11 +158,18 @@ main {
    margin-bottom: 20px;
 }
 
-.minha-lista{
-   display: flex;
-   gap: 20px;
+.categorias img {
+   width: 300px;
+   cursor: pointer;
+   transition: transform 0.3s ease;   /* Suaviza a transição de tamanho (0.3 segundos) */
 }
 
-.categorias img {
-   width: 400px;
+.categorias img:hover {
+   transform: scale(1.15);
+   z-index: 10;
+}
+
+.carrossel-filmes{
+   display: flex;
+   gap: 20px;
 }
