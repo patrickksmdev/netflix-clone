@@ -265,3 +265,75 @@ main {
 .arrow.next {
     right: 0; /* Fixa a próxima seta na borda direita */
 }
+
+/* ==========================================================================
+   Rodapé da Página
+   ========================================================================== */
+
+
+/* Container principal do rodapé com recuo alinhado ao conteúdo principal */
+footer {
+   padding: 50px 200px 30px 200px; /* Margem interna simétrica nas laterais (200px) */
+   color: gray;
+}
+
+/* Alinhamento horizontal dos ícones sociais */
+.footer-icons {
+   display: flex;
+   gap: 30px;
+}
+
+/* Ícones das redes sociais (Font Awesome) */
+.footer-icons a {
+   color: #ffffff;
+   font-size: 24px;
+   text-decoration: none;
+   transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.footer-icons a:hover {
+   opacity: 0.7;
+   transform: scale(1.15); /* Efeito sutil de zoom no hover */
+}
+
+/* Container de colunas de links com distribuição fluida */
+.footer-links {
+   display: flex;
+   justify-content: space-between; /* Distribui as 4 colunas uniformemente */
+   max-width: 2100px;              /* Limite que acompanha a largura dos pôsteres */
+   padding-top: 30px;
+   padding-bottom: 50px;
+}
+
+/* Colunas individuais de navegação estruturadas em listas */
+.link-column {
+   list-style: none; /* Remove os marcadores de lista padrão */
+   display: flex;
+   gap: 15px;
+   flex-direction: column;
+}
+
+/* Estilo padrão e efeito hover para os links do rodapé */
+.footer-links a {
+   text-decoration: none;
+   color: gray;
+}
+
+.link:hover {
+   text-decoration: underline;
+   color: rgb(194, 188, 188); /* Clareia o cinza ao passar o mouse */
+}
+
+/* Botão interativo de Código do Serviço com borda fina */
+.service-code {
+   text-decoration: none;
+   color: grey;
+   border: 1px solid gray;
+   padding: 6px 10px;
+}
+
+/* Texto de copyright e ano de lançamento */
+.footer-copyright {
+   font-size: 14px;
+   padding-top: 40px;
+}

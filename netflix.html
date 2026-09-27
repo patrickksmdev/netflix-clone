@@ -7,132 +7,178 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
     <div class="app-background">
-    <header>
-    <!-- Parte de navegação do menu / Cabeçalho do site -->
 
-    <img src="img/logo-1.png" class="netflix-logo" alt="Netflix">
-    <div class="menu">
-        <a href="#" class="active">Início</a>
-        <a href="#">Séries</a>
-        <a href="#">Filmes</a>
-        <a href="#">Bombando</a>
-        <a href="#">Minha lista</a>
-    </div>
+        <header>
+        <!-- Parte de navegação do menu / Cabeçalho do site -->
 
-    <!-- Elementos do lado direito do cabeçalho -->
-    <div class="header-right">
-        <svg class="search" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="7"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
+            <img src="img/logo-1.png" class="netflix-logo" alt="Netflix">
+            <div class="menu">
+                <a href="#" class="active">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Bombando</a>
+                <a href="#">Minha lista</a>
+            </div>
 
-        <svg class="notification" viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
-            <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
-        </svg>
+            <!-- Elementos do lado direito do cabeçalho -->
+            <div class="header-right">
+                <svg class="search" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
 
-        <img class="user" src="img/avatar.png" alt="User profile">
+                <svg class="notification" viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
+                    <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+                </svg>
 
-        <svg class="user-selector" viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
-            <path d="M7 10l5 5 5-5z"/>
-        </svg>
-    </div>
+                <img class="user" src="img/avatar.png" alt="User profile">
 
-    
+                <svg class="user-selector" viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
+                    <path d="M7 10l5 5 5-5z"/>
+                </svg>
+            </div>
 
-    </header>
+        </header>
 
-    <main>
-    <!-- Corpo principal do site-->
-    <img src="img/poster-1.png" class="movie-poster" alt="Featured movie">
-    <p class="description">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica</p>
-     
-    <!-- Botões de Ação -->
-    <div class="buttons">
-       <button class="button-play">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-               <path d="M6 4l15 8-15 8z"/>
-            </svg>
-            Assistir
-        </button>
-        <button class="button-info">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-            </svg>
-            Mais informações
-        </button>
-    </div>
-
-    <!-- Categories de filmes -->
-    <div class="categories">
-        <h2>Minha lista</h2>
-        
-        <div class="my-list movie-carousel">
-
-            <!-- O trilho de filmes -->
-            <img src="img/my-list/poster_01.png" alt="movie1">
-            <img src="img/my-list/poster_02.png" alt="movie2">
-            <img src="img/my-list/poster_03.png" alt="movie3">
-            <img src="img/my-list/poster_04.png" alt="movie4">
-            <img src="img/my-list/poster_05.png" alt="movie5">
-            <img src="img/my-list/poster_06.png" alt="movie6">
-            <img src="img/my-list/poster_07.png" alt="movie7">
-        </div>
-
-        <h2>Em Alta</h2>
-
-        <div class="trending movie-carousel">
-
-            <!-- O trilho de filmes -->
-            <img src="img/trending/poster_01.png" alt="movie1">
-            <img src="img/trending/poster_02.png" alt="movie2">
-            <img src="img/trending/poster_03.png" alt="movie3">
-            <img src="img/trending/poster_04.png" alt="movie4">
-            <img src="img/trending/poster_05.png" alt="movie5">
-            <img src="img/trending/poster_06.png" alt="movie6">
-        </div>
-        <h2>Séries excêntricas de humor ácido</h2>
-
-        <div class="carousel-container">
-            <!-- Seta Esquerda (volta para a parte 1) -->
-            <a href="#slide-1" class="arrow prev">&#10094;</a>
-
-                <!-- O trilho de filmes -->
-                <div class="humor-series movie-carousel">
-                    <!-- Primeira parte visível -->
-                    <div id="slide-1" class="slide-group">
-                        <img src="img/series/poster_01.png" alt="movie1">
-                        <img src="img/series/poster_02.png" alt="movie2">
-                        <img src="img/series/poster_03.png" alt="movie3">
-                        <img src="img/series/poster_05.png" alt="movie4">
-                        <img src="img/series/poster_06.png" alt="movie5">
-                        <img src="img/series/poster_07.png" alt="movie6">
-                        <img src="img/series/poster_08.png" alt="movie7">
-                    </div>
-
-                    <!-- Segunda parte (aparece ao clicar na seta da direita) -->
-                    <div id="slide-2" class="slide-group">
-                        <img src="img/series/poster_09.png" alt="movie8">
-                        <img src="img/series/poster_10.png" alt="movie9">
-                        <img src="img/series/poster_12.png" alt="movie10">
-                        <img src="img/series/poster_13.png" alt="movie11">
-                        <img src="img/series/poster_14.png" alt="movie12">
-                        <img src="img/series/poster_15.png" alt="movie13">
-                        <img src="img/series/poster_16.png" alt="movie14">
-                    </div>
-                </div>
+        <main>
+        <!-- Corpo principal do site-->
+            <img src="img/poster-1.png" class="movie-poster" alt="Featured movie">
+            <p class="description">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica</p>
             
-            <!-- Seta Direita (avança para a parte 2) -->
-            <a href="#slide-2" class="arrow next">&#10095;</a>
-        </div>    
-    </div>
-    </main>
-    <footer>
-    <!-- Rodapé do site -->
-    </footer>
+            <!-- Botões de Ação -->
+            <div class="buttons">
+            <button class="button-play">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M6 4l15 8-15 8z"/>
+                    </svg>
+                    Assistir
+                </button>
+                <button class="button-info">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                    </svg>
+                    Mais informações
+                </button>
+            </div>
+
+            <!-- Categories de filmes -->
+            <div class="categories">
+                <h2>Minha lista</h2>
+                
+                <div class="my-list movie-carousel">
+
+                    <!-- O trilho de filmes -->
+                    <img src="img/my-list/poster_01.png" alt="movie1">
+                    <img src="img/my-list/poster_02.png" alt="movie2">
+                    <img src="img/my-list/poster_03.png" alt="movie3">
+                    <img src="img/my-list/poster_04.png" alt="movie4">
+                    <img src="img/my-list/poster_05.png" alt="movie5">
+                    <img src="img/my-list/poster_06.png" alt="movie6">
+                    <img src="img/my-list/poster_07.png" alt="movie7">
+                </div>
+
+                <h2>Em Alta</h2>
+
+                <div class="trending movie-carousel">
+
+                    <!-- O trilho de filmes -->
+                    <img src="img/trending/poster_01.png" alt="movie1">
+                    <img src="img/trending/poster_02.png" alt="movie2">
+                    <img src="img/trending/poster_03.png" alt="movie3">
+                    <img src="img/trending/poster_04.png" alt="movie4">
+                    <img src="img/trending/poster_05.png" alt="movie5">
+                    <img src="img/trending/poster_06.png" alt="movie6">
+                </div>
+                <h2>Séries excêntricas de humor ácido</h2>
+
+                <div class="carousel-container">
+                    <!-- Seta Esquerda (volta para a parte 1) -->
+                    <a href="#slide-1" class="arrow prev">&#10094;</a>
+
+                        <!-- O trilho de filmes -->
+                        <div class="humor-series movie-carousel">
+                            <!-- Primeira parte visível -->
+                            <div id="slide-1" class="slide-group">
+                                <img src="img/series/poster_01.png" alt="movie1">
+                                <img src="img/series/poster_02.png" alt="movie2">
+                                <img src="img/series/poster_03.png" alt="movie3">
+                                <img src="img/series/poster_05.png" alt="movie4">
+                                <img src="img/series/poster_06.png" alt="movie5">
+                                <img src="img/series/poster_07.png" alt="movie6">
+                                <img src="img/series/poster_08.png" alt="movie7">
+                            </div>
+
+                            <!-- Segunda parte (aparece ao clicar na seta da direita) -->
+                            <div id="slide-2" class="slide-group">
+                                <img src="img/series/poster_09.png" alt="movie8">
+                                <img src="img/series/poster_10.png" alt="movie9">
+                                <img src="img/series/poster_12.png" alt="movie10">
+                                <img src="img/series/poster_13.png" alt="movie11">
+                                <img src="img/series/poster_14.png" alt="movie12">
+                                <img src="img/series/poster_15.png" alt="movie13">
+                                <img src="img/series/poster_16.png" alt="movie14">
+                            </div>
+                        </div>
+                    
+                    <!-- Seta Direita (avança para a parte 2) -->
+                    <a href="#slide-2" class="arrow next">&#10095;</a>
+                </div>    
+            </div>
+        </main>
+
+        <footer>
+            <!-- Ícones das redes sociais (Font Awesome 6) -->
+            <div class="footer-icons">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <!-- Grade de links institucionais divididos em 4 colunas semânticas -->
+            <div class="footer-links">
+                <!-- Coluna 1 -->
+                <ul class="link-column">
+                    <li><a href="#" class="link">Idioma e legendas</a></li>
+                    <li><a href="#" class="link">Imprensa</a></li>
+                    <li><a href="#" class="link">Privacidade</a></li>
+                    <li><a href="#" class="link">Entre em contato</a></li>
+                </ul>
+                
+                <!-- Coluna 2 -->
+                <ul class="link-column">
+                    <li><a href="#" class="link">Audiodescrição</a></li>
+                    <li><a href="#" class="link">Relações com investidores</a></li>
+                    <li><a href="#" class="link">Avisos legais</a></li>
+                </ul>
+
+                <!-- Coluna 3 -->
+                <ul class="link-column">
+                    <li><a href="#" class="link">Centro de ajuda</a></li>
+                    <li><a href="#" class="link">Carreiras</a></li>
+                    <li><a href="#" class="link">Preferências de cookies</a></li>
+                </ul>
+
+                <!-- Coluna 4 -->
+                <ul class="link-column">
+                    <li><a href="#" class="link">Cartão pré-pago</a></li>
+                    <li><a href="#" class="link">Termos de uso</a></li>
+                    <li><a href="#" class="link">Informações corporativas</a></li>
+                </ul>
+            </div>
+
+            <!-- Botão com borda fina estilo Netflix para verificação de serviço -->
+            <a href="#" class="service-code link">Código do serviço</a>
+            
+            <!-- Direitos autorais com caractere de copyright &copy; -->
+            <p class="footer-copyright">&copy; 1997-2022 Netflix, Inc.</p>
+
+        </footer>
     </div>
 </body>
 </html>
