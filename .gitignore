@@ -1,0 +1,14 @@
+# Vídeos e gravações de tela
+*.webm
+*.mp4
+*.mkv
+*.mov
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
